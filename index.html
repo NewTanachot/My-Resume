@@ -284,15 +284,15 @@
             <div class="col-md">
               <p>&nbsp;</p>
               <ul class="sizeInfo">
-                <li>UnitTest</li>
-                <li>Auth architecture</li>
+                <li>Authen / Authorize</li>
+                <li>JWT architecture</li>
               </ul>
             </div>
             <div class="col-md">
               <p>&nbsp;</p>
               <ul class="sizeInfo">
+                <li>UnitTest</li>
                 <li>Jenkins</li>
-                <li>Jira</li>
               </ul>
             </div>
           </div>
@@ -353,12 +353,25 @@
               <li>MongoDb</li>
             </ul>
           </div>
+          <div class="col-md">
+            <p class="subSection"><strong>Other : </strong></p>
+            <ul class="sizeInfo">
+              <li>Git</li>
+              <li>GitKraken</li>
+              <li>Agile</li>
+              <li>CI/CD</li>
+              <li>Authen / Authorize</li>
+              <li>UnitTest</li>
+              <li>Jenkins</li>
+            </ul>
+          </div>
         </div>
 
         <!-- Footer -->
         <div id="mobileMb" class="row mx-5">
           <div id="footerBody" class="col-md">
             <h3
+              id="footerHead"
               class="text-center m-3 p-2 rounded mt-4 tSection"
               style="color: #ebeae6; background-color: #737373; width: 200px"
             >
@@ -374,12 +387,13 @@
             class="col-md border border-4 border-top-0 border-bottom-0 border-dark px-4"
           >
             <h3
+              id="footerHead"
               class="text-center m-3 p-2 rounded mt-4 tSection"
               style="color: #ebeae6; background-color: #737373; width: 200px"
             >
               EDUCATION
             </h3>
-            <p class="ps-3 secondSubSec">
+            <p class="secondSubSec">
               <strong>Bachelor of Engineering, Computer Engineering</strong>
             </p>
             <ul class="sizeInfo">
@@ -393,12 +407,13 @@
           </div>
           <div id="footerBody" class="col-md">
             <h3
+              id="footerHead"
               class="text-center m-3 p-2 rounded mt-4 tSection"
               style="color: #ebeae6; background-color: #737373; width: 200px"
             >
               CONTACT
             </h3>
-            <div class="sizeInfo ps-3">
+            <div id="contectBody" class="sizeInfo text-nowrap ps-4">
               <div>
                 <i class="fa-solid fa-house me-3"></i>
                 Sukhaphiban 5 Road, Bangkok
@@ -496,6 +511,7 @@
 <script>
   const elements = document.querySelectorAll("[id='expBody']");
   const footerBodys = document.querySelectorAll("[id='footerBody']");
+  const footerHeads = document.querySelectorAll("[id='footerHead']");
   $(document).ready(function () {
     if (window.innerWidth < 768) {
       $("#containerID").removeClass("p-5 my-5");
@@ -503,6 +519,10 @@
         .removeClass("border")
         .addClass("px-0")
         .removeClass("px-4");
+
+      footerHeads.forEach((element) => {
+        element.classList.add("ms-0");
+      });
 
       elements.forEach((element) => {
         element.classList.remove("mx-5");
@@ -512,6 +532,7 @@
         element.classList.add("px-0");
       });
 
+      $("#contectBody").removeClass("ps-4");
       $("#mobileMb").addClass("mb-4");
 
       $("#skillForPC").addClass("visually-hidden");
@@ -527,6 +548,10 @@
         .addClass("px-0")
         .removeClass("px-4");
 
+      footerHeads.forEach((element) => {
+        element.classList.add("ms-0");
+      });
+
       elements.forEach((element) => {
         element.classList.remove("mx-5");
       });
@@ -535,16 +560,22 @@
         element.classList.add("px-0");
       });
 
+      $("#contectBody").removeClass("ps-4");
       $("#mobileMb").addClass("mb-4");
 
       $("#skillForPC").addClass("visually-hidden");
       $("#skillForMobile").removeClass("visually-hidden");
-    } else {
+    } 
+    else {
       $("#containerID").addClass("p-5 my-5");
       $("#removeBorder")
         .addClass("border")
         .removeClass("px-0")
         .addClass("px-4");
+
+      footerHeads.forEach((element) => {
+        element.classList.remove("ms-0");
+      });
 
       elements.forEach((element) => {
         element.classList.add("mx-5");
@@ -554,6 +585,7 @@
         element.classList.remove("px-0");
       });
 
+      $("#contectBody").addClass("ps-4");
       $("#mobileMb").removeClass("mb-4");
 
       $("#skillForPC").removeClass("visually-hidden");
