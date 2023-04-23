@@ -1,0 +1,65 @@
+* {
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-family: 'Sarabun', sans-serif; */
+  font-family: "Sofia Sans", sans-serif;
+}
+
+body {
+  background-color: whitesmoke !important;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-md {
+  background-color: #ebeae6;
+}
+
+.sizeImg {
+  width: 250px;
+}
+
+.styleEXP {
+  color: #ebeae6;
+  background-color: #737373;
+  width: 350px;
+}
+
+.styleCurrentJob {
+  color: #ebeae6;
+  background-color: #737373;
+  width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .sizeImg {
+    width: calc(22vw + 60px);
+  }
+
+  .styleEXP,
+  .styleCurrentJob {
+    width: fit-content;
+  }
+
+  .HeadName {
+    font-size: 6vw;
+  }
+
+  .subHead {
+    font-size: calc(3vw + 5px);
+  }
+
+  .tSection {
+    font-size: 4vw;
+  }
+
+  .subSection,
+  .secondSubSec,
+  .sizeInfo {
+    font-size: calc(3vw + 5px);
+  }
+
+}
