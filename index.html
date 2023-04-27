@@ -368,7 +368,7 @@
         </div>
 
         <!-- Footer -->
-        <div id="mobileMb" class="row mx-5">
+        <div id="mobileMb" class="row mx-3">
           <div id="footerBody" class="col-md">
             <h3
               id="footerHead"
@@ -455,7 +455,7 @@
                 </a>
               </div>
             </div>
-
+            <div id="marginBottom"></div>
             <!-- <ul style="list-style-type: none" class="sizeInfo">
               <li><i class="fa-solid fa-phone-volume me-3"></i>094-491-3857</li>
               <li>
@@ -500,7 +500,7 @@
                 >
               </li>
             </ul> -->
-          </div>
+          </>
         </div>
       </div>
     </div>
@@ -533,10 +533,11 @@
       });
 
       $("#contectBody").removeClass("ps-4");
-      $("#mobileMb").addClass("mb-4");
+      $("#mobileMb").addClass("mx-3");
 
       $("#skillForPC").addClass("visually-hidden");
       $("#skillForMobile").removeClass("visually-hidden");
+      $("#marginBottom").addClass("mb-4");
     }
   });
 
@@ -561,10 +562,11 @@
       });
 
       $("#contectBody").removeClass("ps-4");
-      $("#mobileMb").addClass("mb-4");
+      $("#mobileMb").addClass("mx-3");
 
       $("#skillForPC").addClass("visually-hidden");
       $("#skillForMobile").removeClass("visually-hidden");
+      $("#marginBottom").addClass("mb-4");
     } 
     else {
       $("#containerID").addClass("p-5 my-5");
@@ -586,10 +588,11 @@
       });
 
       $("#contectBody").addClass("ps-4");
-      $("#mobileMb").removeClass("mb-4");
+      $("#mobileMb").removeClass("mx-3");
 
       $("#skillForPC").removeClass("visually-hidden");
       $("#skillForMobile").addClass("visually-hidden");
+      $("#marginBottom").removeClass("mb-4");
     }
   });
 </script>
