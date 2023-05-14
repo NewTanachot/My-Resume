@@ -1,15 +1,15 @@
 {
-    "name": "DevAsNew",
-    "short_name": "DevAsNew",
+    "name": "Dev as New",
+    "short_name": "Dev as New",
     "display": "standalone",
     "background_color": "#ebeae6",
     "theme_color": "#ebeae6",
     "description": "DevAsNew Resume WebApp",
     "icons": [
       {
-        "src": "image/devasnew.jpg",
+        "src": "image/devasnew.png",
         "sizes": "500x500",
-        "type": "image/jpg"
+        "type": "image/png"
       }
     ]
   }
