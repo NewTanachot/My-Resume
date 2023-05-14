@@ -7,8 +7,8 @@
     "description": "DevAsNew Resume WebApp",
     "icons": [
       {
-        "src": "images/devasnew.jpg",
-        "sizes": "48x48",
+        "src": "image/devasnew.jpg",
+        "sizes": "500x500",
         "type": "image/png"
       }
     ]
