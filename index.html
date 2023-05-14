@@ -83,6 +83,12 @@
         <h4 id="expBody" class="mx-5 subSection mb-4">
           <strong>💼 &nbsp; Software Engineer - King Power Click (KPC)</strong>
         </h4>
+        <ul id="expBody" class="text-secondary mx-5 sizeInfo">
+          <li>
+            Software Engineer Backend for Ecommerce Platform (Firster.com) - 
+            <strong>(C# .NET Core - Backend)</strong>
+          </li>
+        </ul>
 
         <!-- Exp Header -->
         <h3 class="text-center m-4 p-2 rounded styleEXP tSection">
@@ -124,11 +130,6 @@
             Stock Inventory Management web application for SME development -
             <strong>(C# .NET Core MVC - Full Stack)</strong>
           </li>
-        </ul>
-        <h4 id="expBody" class="mx-5 subSection">
-          <strong>🚀 &nbsp; Startup Project</strong>
-        </h4>
-        <ul id="expBody" class="text-secondary mx-5 sizeInfo">
           <li>
             Team leader of Custom Inventory Management Web API -
             <strong>(C# .NET Core Web API - Backend)</strong>
@@ -137,6 +138,10 @@
             Frontend developer assistance of Custom Inventory Management web
             application -
             <strong>(React.js with TypeScript - Frontend)</strong>
+          </li>
+          <li>
+            ARO (Auto Received Order) Project. Prototype of Ecommerce center - 
+            <strong>(Next.js 13 - Full Stack)</strong>
           </li>
         </ul>
 
@@ -155,19 +160,19 @@
           <div class="row">
             <div class="col-md mx-5">
               <p class="subSection"><strong>Language : </strong></p>
-              <ul class="sizeInfo">
+              <ul class="sizeInfo text-nowrap">
                 <li>Thai - native</li>
               </ul>
             </div>
             <div class="col-md">
               <p>&nbsp</p>
-              <ul class="sizeInfo">
+              <ul class="sizeInfo text-nowrap">
                 <li>English - Intermediate</li>
               </ul>
             </div>
             <div class="col-md">
               <p>&nbsp</p>
-              <ul class="sizeInfo">
+              <ul class="sizeInfo text-nowrap">
                 <li>Japanese - Beginner</li>
               </ul>
             </div>
@@ -477,11 +482,14 @@
 
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script>
+//   const responsiveResolution = 1200;   
+  const responsiveResolution = 768;
+
   const elements = document.querySelectorAll("[id='expBody']");
   const footerBodys = document.querySelectorAll("[id='footerBody']");
   const footerHeads = document.querySelectorAll("[id='footerHead']");
   $(document).ready(function () {
-    if (window.innerWidth < 768) {
+    if (window.innerWidth < responsiveResolution) {
       $("#containerID").removeClass("p-5 my-5");
       $("#removeBorder")
         .removeClass("border")
@@ -510,7 +518,7 @@
   });
 
   $(window).resize(function () {
-    if (window.innerWidth < 768) {
+    if (window.innerWidth < responsiveResolution) {
       $("#containerID").removeClass("p-5 my-5");
       $("#removeBorder")
         .removeClass("border")
