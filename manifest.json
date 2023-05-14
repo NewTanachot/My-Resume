@@ -1,7 +1,7 @@
 {
     "name": "Dev as New",
     "short_name": "Dev as New",
-    "display": "fullscreen",
+    "display": "standalone",
     "background_color": "#ebeae6",
     "theme_color": "#ebeae6",
     "description": "DevAsNew Resume WebApp",
