@@ -48,19 +48,15 @@ body {
     font-size: 6vw;
   }
 
-  .subHead {
-    /* font-size: calc(3vw + 5px); */
-    font-size: 3vw;
-  }
-
   .tSection {
     font-size: 4vw;
   }
 
+  .subHead,
   .subSection,
   .secondSubSec,
   .sizeInfo {
     /* font-size: calc(3vw + 5px); */
-    font-size: 3vw;
+    font-size: 2vw;
   }
 }
