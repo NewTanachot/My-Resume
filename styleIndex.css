@@ -56,7 +56,7 @@ body {
   .subSection,
   .secondSubSec,
   .sizeInfo {
-    /* font-size: calc(3vw + 5px); */
-    font-size: 2vw;
+    font-size: calc(2vw + 5px);
+    /* font-size: 2vw; */
   }
 }
