@@ -89,13 +89,8 @@
       <!-- Body of Resume -->
       <div style="margin-left: 10%; margin-right: 10%">
 
-        <!-- Interested toppic -->
-        <h3 class="text-center m-4 p-2 rounded styleCurrentJob tSection">
-          INTEREST
-        </h3>
-
         <!-- CurrentJob Header -->
-        <h3 class="text-center m-4 p-2 rounded styleCurrentJob tSection">
+        <h3 class="text-center m-4 mt-5 p-2 rounded styleCurrentJob tSection">
           CURRENT JOB
         </h3>
 
@@ -110,6 +105,33 @@
           </li>
         </ul>
 
+        <!-- Interested toppic Header -->
+        <h3 class="text-center m-4 p-2 rounded styleCurrentJob tSection">
+          INTEREST
+        </h3>
+
+        <!-- Interested toppic Body -->
+        <div class="row text-nowrap">
+          <div class="col">
+            <ul id="expBody" class="mx-5 sizeInfo mb-0">
+              <li>Software Engineering</li>
+              <li>Full-Stack Developer</li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul id="expBody" class="sizeInfo mb-0">
+              <li>Frontend Developer</li>
+              <li>Backend Developer</li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul id="expBody" class="sizeInfo mb-0">
+              <li>Desktop Application Developer</li>
+              <li>Mobile Application Developer</li>
+            </ul>
+          </div>
+        </div>
+
         <!-- Exp Header -->
         <h3 class="text-center m-4 p-2 rounded styleEXP tSection">
           DEVELOPER EXPERIENCE
@@ -120,7 +142,7 @@
           <strong>💼 &nbsp; A-HOST Company Limited</strong>
         </h4>
         <h5 id="expBody" class="mx-5 secondSubSec text-secondary">
-          &nbsp; <strong><i>1. Internship as Software Developer</i></strong>
+          &nbsp; <strong><i>1. Internship as Software Developer : </i></strong>
         </h5>
         <ul id="expBody" class="mx-5 sizeInfo">
           <li>
@@ -134,7 +156,7 @@
           </li>
         </ul>
         <h5 id="expBody" class="mx-5 secondSubSec text-secondary">
-          &nbsp; <strong><i>2. Part-time work as Software Developer</i></strong>
+          &nbsp; <strong><i>2. Part-time work as Software Developer : </i></strong>
         </h5>
         <ul id="expBody" class="mx-5 sizeInfo">
           <li>
@@ -174,12 +196,14 @@
         </h3>
 
         <!-- Skill Body -->
-        <div id="skillForPC" class="border-bottom border-4 border-dark pb-4">
+        <div id="skillForPC">
 
           <!-- Language row -->
           <div class="row">
             <div class="col-md mx-5">
-              <p class="subSection"><strong>Language : </strong></p>
+              <h5 class="subSection text-secondary">
+                <strong><i>1. Language</i></strong>
+              </h5>
               <ul class="sizeInfo text-nowrap">
                 <li>Thai - native</li>
               </ul>
@@ -202,7 +226,9 @@
           <!-- Programing row -->
           <div class="row">
             <div class="col-md mx-5">
-              <p class="subSection"><strong>Programing Language : </strong></p>
+              <h5 class="subSection text-secondary text-nowrap">
+                <strong><i>2. Programing : </i></strong>
+              </h5>
               <ul class="sizeInfo">
                 <li>HTML</li>
                 <li>CSS</li>
@@ -237,7 +263,9 @@
           <!-- Framework row -->
           <div class="row">
             <div class="col-md mx-5">
-              <p class="subSection"><strong>Library / Framework : </strong></p>
+              <h5 class="subSection text-secondary text-nowrap">
+                <strong><i>3. Library / Framework : </i></strong>
+              </h5>
               <ul class="sizeInfo">
                 <li><strong>ASP.NET Core</strong></li>
                 <li>React.js</li>
@@ -273,7 +301,9 @@
           <!-- Database row -->
           <div class="row">
             <div class="col-md mx-5">
-              <p class="subSection"><strong>Database : </strong></p>
+              <h5 class="subSection text-secondary text-nowrap">
+                <strong><i>4. Database : </i></strong>
+              </h5>
               <ul class="sizeInfo">
                 <li>Microsoft SQL Server</li>
                 <li>Oracle Database</li>
@@ -303,7 +333,9 @@
           <!-- Other row -->
           <div class="row">
             <div class="col-md mx-5">
-              <p class="subSection"><strong>Other : </strong></p>
+              <h5 class="subSection text-secondary text-nowrap">
+                <strong><i>5. Other : </i></strong>
+              </h5>
               <ul class="sizeInfo">
                 <li>Git</li>
                 <li>GitKraken</li>
@@ -339,11 +371,13 @@
         <!-- Skill Body for mobile -->
         <div
           id="skillForMobile"
-          class="row border-bottom border-4 border-dark visually-hidden"
+          class="row visually-hidden"
           style="margin-left: 10%; margin-right: 10%"
         >
           <div class="col-md">
-            <p class="subSection"><strong>Language : </strong></p>
+            <h5 class="subSection text-secondary">
+              <strong><i>1. Language : </i></strong>
+            </h5>
             <ul class="sizeInfo">
               <li>Thai - native</li>
               <li>English - Intermediate</li>
@@ -351,7 +385,9 @@
             </ul>
           </div>
           <div class="col-md">
-            <p class="subSection"><strong>Programing Language : </strong></p>
+            <h5 class="subSection text-secondary">
+              <strong><i>2. Programing : </i></strong>
+            </h5>
             <ul class="sizeInfo">
               <li>HTML</li>
               <li>CSS</li>
@@ -367,7 +403,9 @@
             </ul>
           </div>
           <div class="col-md">
-            <p class="subSection"><strong>Library / Framework : </strong></p>
+            <h5 class="subSection text-secondary">
+              <strong><i>3. Library / Framework : </i></strong>
+            </h5>
             <ul class="sizeInfo">
               <li><strong>ASP.NET Core</strong></li>
               <li>React.js</li>
@@ -384,7 +422,9 @@
             </ul>
           </div>
           <div class="col-md">
-            <p class="subSection"><strong>Database : </strong></p>
+            <h5 class="subSection text-secondary">
+              <strong><i>4. Database : </i></strong>
+            </h5>
             <ul class="sizeInfo">
               <li>Microsoft SQL Server</li>
               <li>SQLite</li>
@@ -395,7 +435,9 @@
             </ul>
           </div>
           <div class="col-md">
-            <p class="subSection"><strong>Other : </strong></p>
+            <h5 class="subSection text-secondary">
+              <strong><i>5. Other : </i></strong>
+            </h5>
             <ul class="sizeInfo">
               <li>Git</li>
               <li>GitKraken</li>
@@ -412,96 +454,124 @@
           </div>
         </div>
 
-        <!-- Footer -->
-        <div id="mobileMb" class="row mx-3">
-          <div id="footerBody" class="col-md">
-            <h3
-              id="footerHead"
-              class="text-center m-3 p-2 rounded mt-4 tSection"
-              style="color: #ebeae6; background-color: #737373; width: 200px"
-            >
-              CERTIFICATE
-            </h3>
-            <ul class="sizeInfo">
-              <li>AHOST Certificate as Software Professional 🎓</li>
-              <li>Certificate Japanese Language Proficiency as N5 🎓</li>
-            </ul>
-          </div>
-          <div
-            id="removeBorder"
-            class="col-md border border-4 border-top-0 border-bottom-0 border-dark px-4"
-          >
-            <h3
-              id="footerHead"
-              class="text-center m-3 p-2 rounded mt-4 tSection"
-              style="color: #ebeae6; background-color: #737373; width: 200px"
-            >
-              EDUCATION
-            </h3>
-            <p class="secondSubSec">
-              <strong>Bachelor of Engineering, Computer Engineering</strong>
-            </p>
-            <ul class="sizeInfo">
-              <li>
-                Graduated from Thai-Nichi Institute of technology (2019-2023) 👨‍🎓
-              </li>
-              <br />
-              <li>GPAX <strong>3.78,&nbsp; First Class Honors 🥇</strong></li>
-            </ul>
-          </div>
-          <div id="footerBody" class="col-md">
-            <h3
-              id="footerHead"
-              class="text-center m-3 p-2 rounded mt-4 tSection"
-              style="color: #ebeae6; background-color: #737373; width: 200px"
-            >
-              CONTACT
-            </h3>
-            <div id="contectBody" class="sizeInfo text-nowrap ps-4">
-              <div>
-                <i class="fa-solid fa-house me-3"></i>
-                Sukhaphiban 5 Road, Bangkok
-              </div>
-              <div>
-                <i class="fa-solid fa-envelope me-3"></i>
-                TanachotNew2543@gmail.com
-              </div>
-              <div>
-                <i class="fa-brands fa-linkedin me-3"></i>
-                <a
-                  class="text-decoration-none"
-                  href="https://www.linkedin.com/in/devasnew/"
-                  >My linkedin
-                </a>
-              </div>
-              <div>
-                <i class="fa-brands fa-github me-3"></i>
+        <!-- Certificate Header -->
+        <h3
+          class="text-center m-3 p-2 rounded mt-4 tSection"
+          style="color: #ebeae6; background-color: #737373; width: 200px"
+        >
+          CERTIFICATE
+        </h3>
+
+        <!-- Certificate Body -->
+        <h5 id="expBody" class="mx-5 subSection sizeInfo">
+          <p>🎓 &nbsp; AHOST Certificate as Software Professional</p>
+        </h5>
+        <h5 id="expBody" class="mx-5 subSection sizeInfo">
+          <p>🎓 &nbsp; Certificate Japanese Language Proficiency as N5</p>
+        </h5>
+
+        <!-- Education Header -->
+        <h3
+          class="text-center m-3 p-2 rounded mt-4 tSection"
+          style="color: #ebeae6; background-color: #737373; width: 200px"
+        >
+          EDUCATION
+        </h3>
+
+        <!-- Education Body -->
+        <h5 id="expBody" class="mx-5 subSection sizeInfo">
+          <p>👨‍🎓 &nbsp; Graduated from Thai-Nichi Institute of technology (2019-2023)</p>
+        </h5>
+        <h5 id="expBody" class="mx-5 subSection sizeInfo">
+          <p>🥇 &nbsp; GPAX 3.78 with <span class="text-danger">First Class Honors</span></p>
+        </h5>
+
+        <!-- Contact Header -->
+        <h3
+          class="text-center m-3 p-2 rounded mt-4 tSection"
+          style="color: #ebeae6; background-color: #737373; width: 200px"
+        >
+          CONTACT
+        </h3>
+
+        <!-- Contact Body -->
+        <div id="contactBody" class="row text-nowrap">
+
+          <!-- col no.1 -->
+          <div class="col-md">
+            <h5 id="expBody" class="mx-5 subSection sizeInfo">
+              <span>
+                <i class="fa-brands fa-github"></i>
+                &nbsp;
                 <a
                   class="text-decoration-none"
                   href="https://github.com/NewTanachot"
-                  >My github
+                  target="_blank"
+                  >Github - New_2000
                 </a>
-              </div>
-              <div>
-                <i class="fa-brands fa-facebook me-3"></i>
+              </span>
+            </h5>
+            <h5 id="expBody" class="mx-5 subSection sizeInfo">
+              <span>
+                <i class="fa-brands fa-linkedin"></i>
+                &nbsp;
+                <a
+                  class="text-decoration-none"
+                  href="https://www.linkedin.com/in/devasnew/"
+                  target="_blank"
+                  >Linkedin - Tanachot Udomsartporn
+                </a>
+              </span>
+            </h5>
+            <h5 id="expBody" class="mx-5 subSection sizeInfo">
+              <span>
+                <i class="fa-brands fa-square-facebook"></i>
+                &nbsp;
                 <a
                   class="text-decoration-none"
                   href="https://www.facebook.com/profile.php?id=100087205764882"
-                  >Dev as New
+                  >Facebook - Dev as New
                 </a>
-              </div>
-              <div>
-                <i class="fa-brands fa-instagram me-3"></i>
+              </span>
+            </h5>
+            <h5 id="expBody" class="mx-5 subSection sizeInfo">
+              <span>
+                <i class="fa-brands fa-instagram"></i>
+                &nbsp;
                 <a
                   class="text-decoration-none"
                   href="https://www.instagram.com/devasnew/"
-                  >Dev as New
+                  >Instagram - Dev as New
                 </a>
-              </div>
-            </div>
-            <div id="marginBottom"></div>
+              </span>
+            </h5>
+          </div>
+
+          <!-- col no.2 -->
+          <div class="col-md">
+            <h5 id="expBody" class="mx-5 subSection sizeInfo">
+              <span>
+                <i class="fa-solid fa-house"></i> 
+                &nbsp; Sukhaphiban 5 Road, Bangkok
+              </span>
+            </h5>
+            <h5 id="expBody" class="mx-5 subSection sizeInfo">
+              <span>
+                <i class="fa-solid fa-envelope"></i> 
+                &nbsp; TanachotNew2543@gmail.com
+              </span>
+            </h5>
+            <h5 id="expBody" class="mx-5 subSection sizeInfo">
+              <span>
+                <i class="fa-solid fa-phone-volume"></i>
+                &nbsp; 094-491-3857
+              </span>
+            </h5>
           </div>
         </div>
+
+        <div id="marginBottom"></div>
+        
       </div>
     </div>
   </body>
@@ -513,29 +583,15 @@
   const responsiveResolution = 768;
 
   const elements = document.querySelectorAll("[id='expBody']");
-  const footerBodys = document.querySelectorAll("[id='footerBody']");
-  const footerHeads = document.querySelectorAll("[id='footerHead']");
   $(document).ready(function () {
     if (window.innerWidth < responsiveResolution) {
       $("#containerID").removeClass("p-5 my-5");
-      $("#removeBorder")
-        .removeClass("border")
-        .addClass("px-0")
-        .removeClass("px-4");
-
-      footerHeads.forEach((element) => {
-        element.classList.add("ms-0");
-      });
 
       elements.forEach((element) => {
         element.classList.remove("mx-5");
       });
 
-      footerBodys.forEach((element) => {
-        element.classList.add("px-0");
-      });
-
-      $("#contectBody").removeClass("ps-4");
+      $("#contactBody").addClass("ms-2");
       $("#mobileMb").addClass("mx-3");
 
       $("#skillForPC").addClass("visually-hidden");
@@ -547,24 +603,12 @@
   $(window).resize(function () {
     if (window.innerWidth < responsiveResolution) {
       $("#containerID").removeClass("p-5 my-5");
-      $("#removeBorder")
-        .removeClass("border")
-        .addClass("px-0")
-        .removeClass("px-4");
-
-      footerHeads.forEach((element) => {
-        element.classList.add("ms-0");
-      });
 
       elements.forEach((element) => {
         element.classList.remove("mx-5");
       });
 
-      footerBodys.forEach((element) => {
-        element.classList.add("px-0");
-      });
-
-      $("#contectBody").removeClass("ps-4");
+      $("#contactBody").addClass("ms-2");
       $("#mobileMb").addClass("mx-3");
 
       $("#skillForPC").addClass("visually-hidden");
@@ -573,24 +617,12 @@
     } 
     else {
       $("#containerID").addClass("p-5 my-5");
-      $("#removeBorder")
-        .addClass("border")
-        .removeClass("px-0")
-        .addClass("px-4");
-
-      footerHeads.forEach((element) => {
-        element.classList.remove("ms-0");
-      });
 
       elements.forEach((element) => {
         element.classList.add("mx-5");
       });
 
-      footerBodys.forEach((element) => {
-        element.classList.remove("px-0");
-      });
-
-      $("#contectBody").addClass("ps-4");
+      $("#contactBody").removeClass("ms-2");
       $("#mobileMb").removeClass("mx-3");
 
       $("#skillForPC").removeClass("visually-hidden");
