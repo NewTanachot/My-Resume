@@ -10,7 +10,7 @@ body {
 
 a:hover {
   color: grey !important;
-  /* text-decoration-line: underline !important; */
+  text-decoration-line: underline !important;
 }
 
 .center {
